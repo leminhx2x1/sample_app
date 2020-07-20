@@ -5,6 +5,7 @@ ruby "2.7.1"
 # Bundle edge Rails instead: gem "rails",
 # github: "rails/rails"
 gem "config"
+gem "jquery-rails", "4.3.1"
 gem "rails", "~> 6.0.3", ">= 6.0.3.2"
 # Use mysql as the database for Active Record
 gem "mysql2", ">= 0.4.4"
