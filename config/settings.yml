@@ -1,4 +1,4 @@
-#config user:
+# config user
 user:
   name:
     min_length: 2
