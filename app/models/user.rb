@@ -17,7 +17,6 @@ class User < ApplicationRecord
                      maximum: Settings.user.password.max_length}
   has_secure_password
   # Returns the hash digest of the given string.
-
   # Remembers a user in the database for use in persistent sessions.
   def remember
     self.remember_token = User.new_token
